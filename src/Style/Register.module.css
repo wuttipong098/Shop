@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.Image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logostyle img {
+    width: 120px;
+    height: auto;
+}
+
+.h1 {
+    color: #e57342;
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.formgroup {
+    width: 80%;
+    max-width: 400px;
+}
+
+.groupname {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.FirstName,
+.LastName,
+.PhoneNumber {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    color: #e57342;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.information {
+    padding: 10px;
+    border: 1px solid #e57342;
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff6f2;
+    color: black; /* เพิ่มบรรทัดนี้ */
+}
+
+.PhoneNumber {
+    margin-top: 10px;
+}
+
+.buttonS {
+    background-color: #e57342;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonS:hover {
+    background-color: #cf6237;
+}
+
+.error{
+    color: rgb(255, 0, 0);
+}
